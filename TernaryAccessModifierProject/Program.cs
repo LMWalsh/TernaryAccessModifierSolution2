@@ -17,7 +17,7 @@ namespace TernaryAccessModifierProject {
             cust1.NationalAccount("yes");
 
             var order1 = new Order   {Amount = 1000, Customer = cust1 };
-            var order2 = new Order { Amount = 2000, Customer = cust2 };
+            var order2 = new Order { Amount = 2000, Customer = cust2 }; 
         }
 
         static int Cubed(int nbr) {
