@@ -5,11 +5,11 @@ using System.Text;
 namespace TernaryAccessModifierProject {
     public class Order {
         
-        private static int lastId = 0;
+        private static int lastId = 12;
 
         public string ToConsole() {
             return $"Id[Id], Amount[Amount]";
-                    }
+         }
 
         static Order() {
             lastId = 0;
